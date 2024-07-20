@@ -20,3 +20,75 @@
     <li>liste ögesi 5</li>
  
 </ul>
+<!-- 
+etiket isimlerini direkt verebiliyoruz (h2,h1,h3,p gibi)
++ kardeş öge
+> içinde öge oluşur
+^ yukarı cık ve öge oluştur 
+* carp ->p*3 gibi
+lorem ?? 
+. class
+# id 
+-->
+<!-- h1+h2 -->
+<h1></h1>
+<h2></h2>
+
+<!-- h1+p+p+h2+p+p+p+p h1+p*2+h2+p*4-->
+<h1></h1>
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<!-- ul>li*3 -->
+ <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+ </ul>
+ <!-- bir ögeyi içine girdikten sonra (>) 
+  dışına çıkmadan işlemlere devam edersen hatalı işlem olur (^) -->
+    <!-- hatalı işlem örneği -->
+  <ul>
+    <li>
+        <h1>
+            <p></p>
+        </h1>
+    </li>
+    <li>
+        <h1>
+            <p></p>
+        </h1>
+    </li>
+    <li>
+        <h1>
+            <p></p>
+        </h1>
+    </li>
+  </ul>
+ <!-- doğru olan işlem  ul>li*3^h2+h1>ul>li*3 -->
+   <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+   </ul>
+   <h2></h2>
+   <h1>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+   </h1>
+  <!-- lorem denen mahlukat rasgele igiliççe kelimeler üretiyor
+   loremin yanına koyduğun rakamlar kaç kelime üreteceğini belirliyor lorem3 lorem4 lorem1 gibi  -->
+   <!-- ul>li*3>lorem2 -->
+   <ul> 
+    <li>Lorem, ipsum.</li>
+    <li>Ad, incidunt.</li>
+    <li>Dolore, fuga.</li>
+   </ul>
